@@ -1,0 +1,80 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/foto-gratis/vista-superior-espacio-libre-deliciosa-comida-albondigas-patatas-verdes-verduras-frescas-sobre-fondo-negro_140725-160107.jpg?w=740&t=st=1711051474~exp=1711052074~hmac=42fd65ce4f6110470e6ef0037d957c151a0237e8dcc11e0c53e9f5c66f1c39fa);
+    background-size: cover;
+    background-position: center;
+    color: #0c293b;
+}
+
+header {
+    padding: 0.5rem 1rem;
+    margin-bottom: 6px;
+    display: block;
+}
+
+form {
+    display: block;
+    
+}
+
+.form-div {
+    position: ;
+}
+
+#survey-form {
+    color: white;
+    background: #0c293b;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rbga(0, 0, 0, 0.1);
+}
+
+#title {
+    color: #234b77;
+}
+
+#description {
+    color: #234b77;
+}
+
+.label {
+    color: #234b77;
+}
+
+.input, .select, .radio-g, .checkbox-g, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #234b77;
+    border-radius: 6px;
+}
+
+.input:focus, .select:focus, .radio-g:focus, .checkbox-g:focus, textarea:focus{
+outline: none;
+border-color: #072d57;
+}
+
+button {
+background-color: #079af5;
+color: white;
+border: none;
+padding: 12px 24px;
+cursor: pointer;
+border-radius: 5px;
+transition: background-color 0.3 ease;
+width: 100%;
+}
+
+button:hover {
+    background-color: #1e84f1a3;
+}
