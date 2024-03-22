@@ -27,21 +27,21 @@
         </div>
         
         <div class="form-div">
-            <label for="">Por favor, selecciona tipo de dieta:</label>
-            <select name="" id="dropdown">
-                <option value="">Vegetariana</option>
-                <option value="">Ovolactovegerariana</option>
-                <option value="">Pecetariana</option>
-                <option value="">Carnivora</option>
-                <option value="">Paleo</option>
-                <option value="">Keto</option>
-                <option value="">Vegana</option>
-                <option value="">Otra</option>
+            <label for="diet-type" class="label">Por favor, selecciona tipo de dieta:</label>
+            <select class="input" name="diet-type" id="dropdown">
+                <option value="vegetariana">Vegetariana</option>
+                <option value="ovolactovegerariana">Ovolactovegerariana</option>
+                <option value="pecetariana">Pecetariana</option>
+                <option value="carnivora">Carnivora</option>
+                <option value="paleo">Paleo</option>
+                <option value="keto">Keto</option>
+                <option value="vegana">Vegana</option>
+                <option value="otra">Otra</option>
             </select>
         </div>
 
         <div class="form-div">
-            <label for="">Elige tu comida favorta:</label>
+            <label class="label">Elige tu comida favorta:</label>
             <div class="radio-g ">
                 <label><input type="radio" name="type-food" value="desayuno">Desayuno</label>
                 <label><input type="radio" name="type-food" value="almuerzo">Almuerzo</label>
@@ -50,7 +50,7 @@
         </div>
 
         <div class="form-div">
-            <label for="">Elige tus preferencias:</label>
+            <label class="label">Elige tus preferencias:</label>
             <div class="checkbox-g">
                 <label><input type="checkbox">Baja en carbohidratos</label>
                 <label><input type="checkbox" name="preferences" value="fibra">Rica en fibra</label>
@@ -64,8 +64,8 @@
         </div>
 
         <div class="form-div">
-            <label for="">Comentarios y/o sugerencias:</label>
-            <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Comentarios adicionales"></textarea>
+            <label for="comments">Comentarios y/o sugerencias:</label>
+            <textarea name="comentario" id="comments" class="input" cols="30" rows="10" placeholder="Escribe aqui tu comentario"></textarea>
         </div>
         <button type="submit" id="submit">Enviar</button>
     </form>

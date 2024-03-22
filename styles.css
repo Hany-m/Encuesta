@@ -1,11 +1,16 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
     margin: 0;
     padding: 0;
-    background-image: url(https://img.freepik.com/foto-gratis/vista-superior-espacio-libre-deliciosa-comida-albondigas-patatas-verdes-verduras-frescas-sobre-fondo-negro_140725-160107.jpg?w=740&t=st=1711051474~exp=1711052074~hmac=42fd65ce4f6110470e6ef0037d957c151a0237e8dcc11e0c53e9f5c66f1c39fa);
+    background-image: linear-gradient(
+    115deg,
+    rgba(38, 88, 131, 0.8),
+    rgba(38, 100, 140, 0.8)
+    ), url(https://img.freepik.com/foto-gratis/vista-superior-espacio-libre-deliciosa-comida-albondigas-patatas-verdes-verduras-frescas-sobre-fondo-negro_140725-160107.jpg?w=740&t=st=1711051474~exp=1711052074~hmac=42fd65ce4f6110470e6ef0037d957c151a0237e8dcc11e0c53e9f5c66f1c39fa);
     background-size: cover;
     background-position: center;
-    color: #0c293b;
+    box-sizing: border-box;
 }
 
 header {
@@ -16,56 +21,72 @@ header {
 
 form {
     display: block;
-    
+    margin: auto;
+    width: 80%;
 }
 
-.form-div {
-    position: ;
+div {
+    display: block;
 }
 
 #survey-form {
     color: white;
-    background: #0c293b;
-    padding: 5px;
+    background: rgba(12, 41, 59, 0.6);
+    padding: 50px;
     border-radius: 5px;
+    margin: 30px auto;
+    position: relative;
 }
 
 .container {
     max-width: 600px;
-    margin: 20px auto;
+    margin: auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 10px;
     box-shadow: 0 0 10px rbga(0, 0, 0, 0.1);
 }
 
-#title {
-    color: #234b77;
+#description, #title  {
+    color: white;
+    text-align: center;
 }
 
-#description {
-    color: #234b77;
+#survey-form  {
+    color: white;
+    margin-bottom: 50px;
 }
+
 
 .label {
-    color: #234b77;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px 10px 0;
 }
 
-.input, .select, .radio-g, .checkbox-g, textarea {
+input, select, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #234b77;
-    border-radius: 6px;
+    border-radius: 6px;   
+    display: block;
+    margin: auto;}
+
+.radio-g, .checkbox-g {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
 }
 
-.input:focus, .select:focus, .radio-g:focus, .checkbox-g:focus, textarea:focus{
-outline: none;
-border-color: #072d57;
+.form-div {
+    display: block;
+    margin: 0 auto 10px auto;
+    padding: 10px 30px;
+
 }
 
 button {
-background-color: #079af5;
+background-color: #66adf8a3;
 color: white;
 border: none;
 padding: 12px 24px;
@@ -76,5 +97,5 @@ width: 100%;
 }
 
 button:hover {
-    background-color: #1e84f1a3;
+    background-color: #079af5;
 }
