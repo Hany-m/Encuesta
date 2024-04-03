@@ -32,7 +32,7 @@ div {
 #survey-form {
     color: white;
     background: rgba(12, 41, 59, 0.6);
-    padding: 50px;
+    padding: 40px;
     border-radius: 5px;
     margin: 30px auto;
     position: relative;
@@ -53,7 +53,7 @@ div {
 
 #survey-form  {
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -63,13 +63,22 @@ div {
     padding: 20px 10px 10px 0;
 }
 
-input, select, textarea {
+input[type="text"], input[type="email"], input[type="number"], select {
+    width:100%;
+    margin-right: 10px; 
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;   
+    display: block;
+}
+
+textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 6px;   
     display: block;
-    margin: auto;}
+    }
 
 .radio-g, .checkbox-g {
     display: flex;
